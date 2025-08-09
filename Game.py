@@ -5,10 +5,10 @@ import math
 import numpy as np
 from Net import NeuralNetwork, convert_bb
 
-print("Finished imports (this is Game.py)")
+print("Finished imports")
 
 nn = NeuralNetwork()
-nn.load_state_dict(torch.load("/Users/akshith/PycharmProjects/pythonProject49/model.pth"))
+nn.load_state_dict(torch.load("path/to/model.pth"))
 
 print("Successfully loaded model")
 
