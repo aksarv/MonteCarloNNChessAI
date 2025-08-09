@@ -1,2 +1,2 @@
 # MonteCarloNNChessAI
-A terrible chess AI using Monte Carlo Search Tree and Neural Networks
+A terrible chess AI using Monte Carlo Search Tree and Neural Networks (for static evaluation)
