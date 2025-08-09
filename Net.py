@@ -118,7 +118,7 @@ def main():
         print(f"Training Loss: {avg_loss}\nTest Loss: {avg_test_loss}")
         print(f"Accuracy on test dataset: {round(accuracy * 100)}%")
 
-    torch.save(model.state_dict(), "/Users/akshith/PycharmProjects/pythonProject49/model.pth")
+    torch.save(model.state_dict(), "path/to/model.pth")
 
 
 if __name__ == "__main__":
